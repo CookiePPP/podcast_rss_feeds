@@ -1,0 +1,2 @@
+rss_dicts/*.json.gz filter=lfs diff=lfs merge=lfs -text
+*.json.gz filter=lfs diff=lfs merge=lfs -text
