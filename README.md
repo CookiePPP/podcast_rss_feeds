@@ -52,11 +52,9 @@ In total there are;
 ## Usage
 #### (downloading podcasts)
 
-1. Download [rss_dicts](https://drive.google.com/drive/folders/1lHRXjiksRHv8-WCv6b8gw-MGL2W24avf?usp=share_link) and put the `rss_dicts_chunk_{id}.json.gz` files inside a folder called `rss_dicts`.![img.png](img.png)
+1. Run `python podcast_download.py --start_chunk=0 --final_chunk=0` to download the first chunk. (This is around 4TB of data)
 
-2. Run `python podcast_download.py --start_chunk=0 --final_chunk=0` to download the first chunk. (This is around 4TB of data)
-
-3. Run `python podcast_compress.py` to convert any media files in the repo to `.opus` 32kbps mono format. (this reduces the size per chunk from 4TB to 1TB but takes  a while to run).
+2. Run `python podcast_compress.py` to convert any media files in the repo to `.opus` 32kbps mono format. (this reduces the size per chunk from 4TB to 1TB but takes  a while to run).
 
 Both scripts can be ran at the same time.
 
