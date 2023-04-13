@@ -6,7 +6,7 @@ import subprocess
 from os.path import exists
 from shutil import rmtree
 from multiprocessing import Process
-from utils import RSS_to_title, is_empty, ascii_percent, make_path_safe
+from podcast_utils import RSS_to_title, is_empty, ascii_percent, make_path_safe
 from langdetect import detect
 from tqdm import tqdm
 

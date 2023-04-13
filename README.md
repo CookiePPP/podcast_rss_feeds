@@ -52,7 +52,7 @@ In total there are;
 ## Usage
 #### (downloading podcasts)
 
-1. Download [rss_dicts](https://drive.google.com/drive/folders/1lHRXjiksRHv8-WCv6b8gw-MGL2W24avf?usp=share_link) and extract to the root of the repo.
+1. Download [rss_dicts](https://drive.google.com/drive/folders/1lHRXjiksRHv8-WCv6b8gw-MGL2W24avf?usp=share_link) and put the `rss_dicts_chunk_{id}.json.gz` files inside a folder called `rss_dicts`.![img.png](img.png)
 
 2. Run `python podcast_download.py --start_chunk=0 --final_chunk=0` to download the first chunk. (This is around 4TB of data)
 
